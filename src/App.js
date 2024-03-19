@@ -1,5 +1,4 @@
 import './App.css';
-import Sidebar from './Dashboard/Dashboard';
 import Login from './Login/Login';
 
 function App() {
@@ -9,9 +8,10 @@ function App() {
     { title: 'Hizmetler', url: '#' },
     { title: 'İletişim', url: '' },
 ];
+
   return (
     <div className="App">
-      <Sidebar items={menuItems}/>
+        <p>Hello World !</p>
       <Login/>
    
     </div>
