@@ -7,7 +7,7 @@ function App() {
     { title: 'Anasayfa', url: '#' },
     { title: 'Hakkımızda', url: '#' },
     { title: 'Hizmetler', url: '#' },
-    { title: 'İletişim', url: '#' },
+    { title: 'İletişim', url: '' },
 ];
   return (
     <div className="App">
