@@ -1,0 +1,26 @@
+.sidebar {
+    width: 200px; /* Menü genişliği */
+    height: 100%; /* Sayfanın tam yüksekliği */
+    background-color: #333; /* Menü arka plan rengi */
+    position: fixed; /* Sayfa kaydırıldığında menünün sabit kalmasını sağlar */
+    top: 0; /* Menüyü sayfanın en üstüne yerleştirir */
+    left: 0; /* Menüyü sayfanın soluna yerleştirir */
+}
+
+.sidebar ul {
+    list-style: none; /* Madde işaretlerini kaldırır */
+    padding: 0; /* Kenar boşluğunu kaldırır */
+}
+
+.sidebar ul li {
+    padding: 10px; /* Menü öğelerinin yatay dolgusu */
+}
+
+.sidebar ul li a {
+    color: #fff; /* Menü öğelerinin metin rengi */
+    text-decoration: none; /* Link altı çizgisini kaldırır */
+}
+
+.sidebar ul li a:hover {
+    background-color: #555; /* Fare üzerine geldiğinde menü öğesinin arka plan rengi */
+}
